@@ -41,12 +41,14 @@
 
   header #branding{
     float:left;
-    margin:0;
+    display:inline;
+    margin:0px;
   }
 
   header nav{
     float:right;
     margin-top:0px;
+    padding: 15px 0;
   }
 
   header .highlight, header .current a{
@@ -130,8 +132,7 @@
   footer{
     padding:20px;
     margin-top:20px;
-    color:#f4f4f4;
-    background-colour:#e8491d;
+    background-color:#EE8515;
     text-align:center;
   }
 
