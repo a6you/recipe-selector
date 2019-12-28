@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width"> <!-- the meta data is for the responsive part-->
+    <meta name="description" content="Making recipes from basic ingredients">
+    <meta name="keywords" content="cooking, recipes, easy to make"
+    <meta name="author" content="A Y">
+    <title>Recipe Maker | About</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header> <!-- this is for intro content or navigation links -->
+      <div class="container"> <!-- class vs. ids, id is for unique things, class is for things used often-->
+        <div id="branding">
+          <h1><span class="highlight">Recipe</span> Maker</h1>
+        </div>
+          <nav>
+            <ul>  
+              <li><a href="index.html">Home</a></li>
+              <li class="current"><a href="about.html">About</a></li>
+              <li><a href="services.html">Services</a></li>
+            </ul>
+          </nav>
+      </div>
+    </header>
+
+    <section id="newsletter">
+      <div class="container">
+        <h1>Subscribe To Our Newsletter</h1>
+        <form>
+          <input type="email" placeholder="Enter Email...">
+          <button type="submit" class="button_1">Subscribe</button>
+        </form>
+    </section>
+    
+     <section id="main">
+       <div class="container">
+         <article id="main-col">
+           <h1 class="page-title">About Us</h1>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis tellus et leo tempus cursus. Sed vel eros urna. Sed risus enim, commodo in neque vel, ullamcorper efficitur nunc. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed nec facilisis mi. Aliquam ullamcorper ipsum non arcu eleifend blandit. Aliquam arcu quam, porttitor vel dolor non, condimentum suscipit lorem. Ut a consectetur sapien.</p>
+           <p class="dark"> Mauris eget gravida tortor, ut tristique nisl. Nunc vel sapien quam. Donec pretium lacinia tellus quis semper. Cras at gravida lectus, at consequat ex. Nulla risus purus, egestas non ex at, volutpat mollis diam. Donec vitae congue augue. Etiam rhoncus, ligula vitae pellentesque blandit, urna nibh viverra massa, ac porttitor eros nibh a quam. Ut gravida consequat volutpat. Integer nec magna interdum, porta turpis ac, egestas dolor. Cras consequat accumsan elit, in consectetur felis. Nullam rutrum, turpis ut finibus placerat, leo augue bibendum nisi, non imperdiet eros velit quis sapien. Curabitur sit amet ante sit amet risus tempor euismod et eget mauris.
+           </p>
+         </article>
+         
+         <aside id="sidebar">
+         <div class="dark">
+           <h3>What We Do</h3>
+           <p>Sed vestibulum ac ligula a rutrum. Sed id sapien rhoncus, sollicitudin neque pretium, porta nulla. Aliquam ornare facilisis enim. Morbi turpis purus, hendrerit eget dui vel, dapibus convallis erat. Sed vitae efficitur orci, non aliquam lacus. Mauris eget gravida tortor, ut tristique nisl. Nunc vel sapien quam. Donec pretium lacinia tellus quis semper. Cras at gravida lectus, at consequat ex. Nulla risus purus, egestas non ex at, volutpat mollis diam.</p>
+
+        </div>
+        
+
+         </aside>
+
+       </div>
+    </section>
+
+      <footer>
+        <p>Recipe Maker, Copyright &copy; 2019</p>
+      </footer>
+  </body>
+</html>
